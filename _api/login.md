@@ -1,3 +1,21 @@
+---
+title: /login
+position_number: 1.1
+type: post
+description: Login
+parameters:
+  - name: email
+    content: Kullanıcı E-Posta Adresi
+  - name: gsm
+    content: Kullanıcı Cep Telefonu Numarası
+  - name: tck
+    content: Kullanıcı T.C. Kimlik Numarası
+  - name: password
+    content: Kullanıcı şifre bilgisi
+  - name: clientIp
+    content: Kullanıcı Client IP adresi
+content_markdown: |-
+
 Doküman Kontrolü
 ================
 
@@ -191,4 +209,8 @@ Test Ortamı Adresi : https://opytest.ipara.com/opy/user/login
 
 | public static String getSHA1Text(String text) throws Exception { MessageDigest sha1 = MessageDigest.getInstance("SHA-1"); return (new BASE64Encoder()).encode(sha1.digest(text.getBytes("UTF-8"))); } |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+---
+
 
