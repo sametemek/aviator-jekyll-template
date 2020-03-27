@@ -1,11 +1,11 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: MultiDocs
+description: Multinet'in servis dökümanları
+url: https://webservices.multinet.com.tr
 google_analytics_key:
-permalink: pretty
+permalink: multinet
 baseurl:
 
 # -----
